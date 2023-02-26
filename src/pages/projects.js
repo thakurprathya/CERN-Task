@@ -3,14 +3,14 @@ import '../global.css';
 
 import Navbar from '../components/Navbar';
 
-const Index = () => {
+const projects = () => {
     return (
         <main>
             <Navbar/>
-            <h1>hello world</h1>
+            <h1>projects page</h1>
         </main>
     )
 };
 
-export const Head = () => <title>Home Page</title>;
-export default Index;
+export const Head = () => <title>Projects Page</title>;
+export default projects;

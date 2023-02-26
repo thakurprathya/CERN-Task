@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+.nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.brand{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand > img{
+  margin-left: 1.5vw;
+  padding: 5px;
+  min-width: 4vw;
+  height: 7vh;
+  border-radius: 15px;
+}
+.brand-name {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration:none;
+    color: black;
+    margin-left: 1vw;
+    text-transform:uppercase;
+    font-size: 4vh;
+}
+.nav-menu {
+    margin-left: auto;
+}
+.nav-menu ul {
+    display: flex;
+    padding: 0;
+}
+.nav-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+.nav-menu li a {
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size:large;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    transition: all .2s ease-in-out; 
+}
+.nav-menu li a:hover{
+  transform: scale(1.1);
+}
+.hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+}
+.hamburger:hover {
+    background-color: #2642af;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    .nav-menu ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 77px);
+        background-color: white;
+        border-top: 1px solid black;
+    }
+    .nav-menu li {
+        text-align: center;
+        margin: 0;
+    }
+    .nav-menu li a {
+        color: black;
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+    .nav-menu li:hover {
+        background-color: #eee;
+    }
+    .nav-menu.expanded ul {
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+}
