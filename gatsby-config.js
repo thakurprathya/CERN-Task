@@ -6,5 +6,16 @@ module.exports = {
     title: `gsoc_task`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-yaml",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "data",
+        path: `./src/data/`,
+      },
+    },
+  ],
 }

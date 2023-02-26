@@ -1,0 +1,99 @@
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: Docker
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: stable
+  videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker1
+  hero-image: https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: Gatsby
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: beta
+  videos: ""
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker2
+  hero-image: https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: Express
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: alpha
+  videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker3
+  hero-image: https://images.unsplash.com/photo-1592609930961-219235eded71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: NodeJs
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: stable
+  videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker4
+  hero-image: https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: Python
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: stable
+  videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker5
+  hero-image: https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: PHP
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: beta
+  videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker6
+  hero-image: https://images.unsplash.com/photo-1592609931095-54a2168ae893?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: Ruby
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: stable
+  videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker7
+  hero-image: https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: Golang
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: stable
+  videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker8
+  hero-image: https://images.unsplash.com/photo-1599837565318-67429bde7162?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: C/C++
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: alpha
+  videos: ""
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker9
+  hero-image: https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60
+
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: Java
+  repository: https://github.com/hsf-training/hsf-training-docker
+  status: beta
+  videos: ""
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker10
+  hero-image: https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60
