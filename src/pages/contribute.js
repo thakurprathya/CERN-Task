@@ -1,5 +1,5 @@
 import * as React from 'react';
-import '../global.css';
+import '../styles/global.css';
 
 import Navbar from '../components/Navbar';
 
@@ -12,5 +12,5 @@ const contribute = () => {
     )
 };
 
-export const Head = () => <title>Contributor's Page</title>;
+export const Head = () => <title>HSF -Contribute</title>;
 export default contribute;

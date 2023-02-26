@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 import { Link } from "gatsby";
 
 import icon from '../images/icon.png';
@@ -12,7 +12,7 @@ const Navbar = ({standard=false}) =>{
         return(
         <nav className="nav brand">
             <img src={icon} alt="logo"/>
-            <p className="brand-name">learn</p>
+            <p className="brand-name">hsf</p>
         </nav>
         );
     }
@@ -20,7 +20,7 @@ const Navbar = ({standard=false}) =>{
         <nav className="nav">
             <a href="/" className="brand">
                 <img src={icon} alt="logo" />
-                <p className="brand-name">learn</p>
+                <p className="brand-name">hsf</p>
             </a>
             <button className="hamburger" onClick={() => { setIsNavExpanded(!isNavExpanded) }}><MoreHorizOutlinedIcon color="primary"/></button>
             <div className={ isNavExpanded ? "nav-menu expanded" : "nav-menu" }>

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import '../global.css';
+import '../styles/global.css';
 
 import Navbar from '../components/Navbar';
 
@@ -12,5 +12,5 @@ const projects = () => {
     )
 };
 
-export const Head = () => <title>Projects Page</title>;
+export const Head = () => <title>HSF -Projects</title>;
 export default projects;
