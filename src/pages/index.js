@@ -1,8 +1,7 @@
 import * as React from 'react';
+import {Link} from 'gatsby';
 import '../styles/global.css';
 import '../styles/index.css';
-import {Link} from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 
 import Navbar from '../components/Navbar';
 import Main from '../components/Main';
@@ -30,17 +29,17 @@ const Index = () => {
                         <h2>Organisation Name</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolore molestias magnam aliquam sint, possimus cum iste vitae ut dignissimos sunt eligendi. Ad impedit velit fugiat, aspernatur ea blanditiis molestiae!</p>
                         <div className="links">
-                            <Link to="#">social link 1<StaticImage src={facebookLogo} alt="icon"/></Link>
-                            <Link to="#">social link 2<StaticImage src={facebookLogo} alt="icon"/></Link>
-                            <Link to="#">social link 3<StaticImage src={facebookLogo} alt="icon"/></Link>
-                            <Link to="#">social link 4<StaticImage src={facebookLogo} alt="icon"/></Link>
+                            <Link to="#">social link 1<img src={facebookLogo} alt="icon"/></Link>
+                            <Link to="#">social link 2<img src={facebookLogo} alt="icon"/></Link>
+                            <Link to="#">social link 3<img src={facebookLogo} alt="icon"/></Link>
+                            <Link to="#">social link 4<img src={facebookLogo} alt="icon"/></Link>
                         </div>
                     </div>
                     <div className="sponsors">
                         <h2>Sponsors</h2>
                         <div className="images">
-                            <StaticImage src={univLogo} alt="Sponsor_Logo" />
-                            <StaticImage src={univLogo} alt="Sponsor_Logo" />
+                            <img src={univLogo} alt="Sponsor_Logo" />
+                            <img src={univLogo} alt="Sponsor_Logo" />
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, est. Repudiandae cum magnam, a, quisquam neque dolores nihil expedita accusantium unde deleniti omnis quam reprehenderit veniam? Repudiandae cupiditate praesentium ducimus sapiente quibusdam, molestias labore, autem quis nihil fugit molestiae in.</p>
                     </div>

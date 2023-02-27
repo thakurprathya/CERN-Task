@@ -1,0 +1,13 @@
+/* basics */
+*{
+    font-family: sans-serif;
+}
+.stable{
+    background-color: rgb(206, 252, 194);
+}
+.beta{
+    background-color: rgb(245, 201, 202);
+}
+.alpha{
+    background-color: rgb(202, 208, 252);
+}

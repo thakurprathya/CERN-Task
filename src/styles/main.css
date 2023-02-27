@@ -1,3 +1,33 @@
+/* basics */
 *{
     font-family: sans-serif;
+}
+.main{
+    display: flex;
+}
+
+/* filters */
+.filters{
+    width: 35vw;
+    padding: 3rem;
+}
+
+/* main */
+.content{
+    width: 65vw;
+    padding: 3rem;
+}
+.searchBox{
+    margin: 2vh 3vw 2vh 1vw;
+}
+.searchBox > input{
+    width: 40vw;
+    height: 35px;
+    border-radius: 20px;
+    border: 1.5px solid #000000bd;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.searchBox > input:focus{
+    outline: none;
 }

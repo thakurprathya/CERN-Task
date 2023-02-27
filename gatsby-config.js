@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `gsoc_task`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://gsocqualificationtaskmain.gatsbyjs.io/`,
   },
   plugins: [
     "gatsby-plugin-image",

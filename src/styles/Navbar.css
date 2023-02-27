@@ -25,7 +25,7 @@
   height: 7vh;
   border-radius: 15px;
 }
-.brand-name {
+.brandName {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration:none;
     color: black;
@@ -35,18 +35,18 @@
 }
 
 /* Navbar Menu */
-.nav-menu {
+.navMenu {
     margin-left: auto;
 }
-.nav-menu ul {
+.navMenu ul {
     display: flex;
     padding: 0;
 }
-.nav-menu li {
+.navMenu li {
     list-style-type: none;
     margin: 0 1rem;
 }
-.nav-menu li a {
+.navMenu li a {
     padding: 0 .5vw 0 .5vw;
     font-family:sans-serif;
     font-weight: 600;
@@ -57,7 +57,7 @@
     width: 100%;
     transition: all .2s ease-in-out; 
 }
-.nav-menu li a:hover{
+.navMenu li a:hover{
   transform: scale(1.1);
 }
 .hamburger {
@@ -86,7 +86,7 @@
     .hamburger {
       display: block;
     }
-    .nav-menu ul {
+    .navMenu ul {
         display: none;
         position: absolute;
         top: 60px;
@@ -97,19 +97,19 @@
         background-color: white;
         border-top: 1px solid black;
     }
-    .nav-menu li {
+    .navMenu li {
         text-align: center;
         margin: 0;
     }
-    .nav-menu li a {
+    .navMenu li a {
         color: black;
         width: 100%;
         padding: 1.5rem 0;
     }
-    .nav-menu li:hover {
+    .navMenu li:hover {
         background-color: #eee;
     }
-    .nav-menu.expanded ul {
+    .navMenu.expanded ul {
         display: block;
         position: absolute;
         z-index: 1;
