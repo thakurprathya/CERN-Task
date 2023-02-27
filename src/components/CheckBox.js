@@ -1,20 +1,24 @@
 import React from 'react';
 import '../styles/checkbox.css';
 
-const CheckBox = ({data}) => {
+const CheckBox = ({data, state, setState }) => {
+    // Functions
     const capitalize = (str) => {
         return str.charAt(0).toUpperCase() + str.slice(1);
     }
+    const HandleOnClick = (event) =>{
+        setState({...state, [event.target.name] : event.target.checked});
+    }
 
     return (
-        <div>
-            <h4>{capitalize(data)}</h4>
+        <div className='box'>
+            <h4 className='head'>{capitalize(data)}</h4>
             <div className="boxes">
-                <label htmlFor="1">
-                    <input type="checkbox" name="1" checked/> Available
+                <label>
+                    <input type="checkbox" name="checkbox1" checked={state.checkbox1} onClick={HandleOnClick}/> Available
                 </label>
-                <label htmlFor="1">
-                    <input type="checkbox" name="1" checked/> Not Available
+                <label>
+                    <input type="checkbox" name="checkbox2" checked={state.checkbox2} onClick={HandleOnClick}/> Not Available
                 </label>
             </div>
         </div>
