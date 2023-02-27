@@ -1,9 +1,7 @@
 /* basics */
-*{
-    font-family: sans-serif;
-}
 .main{
     display: flex;
+    overflow-x: hidden;
 }
 
 /* filters */
@@ -23,7 +21,7 @@
 .searchBox > input{
     width: 40vw;
     height: 35px;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1.5px solid #000000bd;
     padding-left: 20px;
     font-size: 16px;
@@ -51,6 +49,9 @@
     }
     .searchBox > input{
         width: 70vw;
+    }
+    .content{
+        padding-left: 1rem;
     }
 }
 @media screen and (max-width: 568px) {

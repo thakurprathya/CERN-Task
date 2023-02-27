@@ -19,6 +19,7 @@ const Main = () => {
                     videos
                     webpage
                     id
+                    heroImage
                 }
             }
         }
@@ -31,14 +32,14 @@ const Main = () => {
     const [videos, setVideos]= useState({checkbox1:true, checkbox2:true});
     const [repo, setRepo]= useState({checkbox1:true, checkbox2:true});
     const [webpage, setWebpage]= useState({checkbox1:true, checkbox2:true});
-    const [status, setStatus]= useState("stable");
+    const [status, setStatus]= useState("all");
     
     return (
         <div className='main'>
             <div className="filters">
                 <h2>Filter Content</h2>
                 <div className='allFilters'>
-                    <div className="statusFilter"><Dropdown data="status" types={["stable", "beta", "alpha"]} state={status} setState={setStatus}/></div>
+                    <div className="statusFilter"><Dropdown data="status" types={["all", "stable", "beta", "alpha"]} state={status} setState={setStatus}/></div>
                     <div className="videoFilter"><CheckBox data="videos" state={videos} setState={setVideos}/></div>
                     <div className="repoFilter"><CheckBox data="repository" state={repo} setState={setRepo}/></div>
                     <div className="webpageFilter"><CheckBox data="webPage" state={webpage} setState={setWebpage}/></div>
@@ -48,12 +49,17 @@ const Main = () => {
                 <div className="searchBox">
                     <input type="text" placeholder="Search" value={searchTxt} onChange={(e)=>{setSearchTxt(e.target.value)}}/>
                 </div>
+                {courses.map((course)=>{
+                    if(searchTxt.toLowerCase === "" || course.node?.name?.toLowerCase().includes(searchTxt.toLowerCase()) || course.node?.description?.toLowerCase().includes(searchTxt.toLowerCase()) || course.node?.status?.toLowerCase().includes(searchTxt.toLowerCase())){
+                        if(status === "all" || course.node?.status === status){
+                            if((videos.checkbox1 === true && videos.checkbox2 === true) || (videos.checkbox1 === true ? course.node?.videos !== "" : course.node?.videos === "") &&
+                            (repo.checkbox11 === true && repo.checkbox2 === true) || (repo.checkbox1 === true ? course.node?.repository !== "" : course.node?.repository === "") &&
+                            (webpage.checkbox1 === true && webpage.checkbox2 === true) || (webpage.checkbox1 === true  ? course.node?.webpage !== "" : course.node?.webpage === ""))
+                                    return <Card data={course}/> 
+                        }
+                    }
+                })}
             </div>
-            {courses.map((course)=>{
-                if(course.node?.name?.toLowerCase().includes(searchTxt.toLowerCase()) || course.node?.description?.toLowerCase().includes(searchTxt.toLowerCase()) || searchTxt.toLowerCase === ""){
-                    return <Card data={course}/>
-                }
-            })}
         </div>
     )
 };

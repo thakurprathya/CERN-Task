@@ -1,13 +1,64 @@
 /* basics */
-*{
-    font-family: sans-serif;
-}
 .stable{
-    background-color: rgb(206, 252, 194);
+    background-color: rgb(226, 253, 219);
 }
 .beta{
-    background-color: rgb(245, 201, 202);
+    background-color: rgb(251, 219, 220);
 }
 .alpha{
-    background-color: rgb(202, 208, 252);
+    background-color: rgb(221, 224, 249);
+}
+
+/* main */
+.card{
+    padding: 1rem;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 10px;
+}
+#heading{
+    margin-bottom: 2vh;
+}
+#heading > a{
+    text-decoration: none;
+}
+.card > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 4vw;
+}
+h4{
+    margin: .5vh auto .5vh 7vw;
+    color: rgb(151, 150, 150);
+}
+h4 > a{
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+}
+
+
+/* media queries */
+@media screen and (max-width: 930px) {
+    .card > img{
+        width: 150px; height: 150px;
+        margin-right: 2vw;
+    }
+    h4{
+        margin-left: 4vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card{
+        margin-left: 2vw;
+        max-width: 85vw;
+    }
+}
+@media screen and (max-width: 545px) {
+    .card{
+        max-width: 80vw;
+        flex-direction: column;
+    }
 }

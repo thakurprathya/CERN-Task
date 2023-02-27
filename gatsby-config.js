@@ -7,8 +7,6 @@ module.exports = {
     siteUrl: `https://gsocqualificationtaskmain.gatsbyjs.io/`,
   },
   plugins: [
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
     "gatsby-transformer-yaml",
     {
       resolve: "gatsby-source-filesystem",
