@@ -1,6 +1,9 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Docker
+  tag:
+    - Software_Basics
+    - Backend
   repository: https://github.com/hsf-training/hsf-training-docker
   status: stable
   videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
@@ -11,6 +14,8 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Gatsby
+  tag: 
+    - Frontend
   repository: https://github.com/hsf-training/hsf-training-docker
   status: beta
   videos: ""
@@ -21,6 +26,9 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Express
+  tag: 
+    - Software_Basics
+    - Backend
   repository: https://github.com/hsf-training/hsf-training-docker
   status: alpha
   videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
@@ -31,6 +39,9 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: NodeJs
+  tag: 
+    - Software_Basics
+    - Backend
   repository: https://github.com/hsf-training/hsf-training-docker
   status: stable
   videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
@@ -38,9 +49,12 @@
   id: docker4
   heroImage: https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60
 
-- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+- description: Programming with python
     image system.
   name: Python
+  tag:
+    - Frontend
+    - Backend
   repository: ""
   status: stable
   videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
@@ -51,6 +65,9 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: PHP
+  tag: 
+    - Software_Basics
+    - Backend
   repository: https://github.com/hsf-training/hsf-training-docker
   status: beta
   videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
@@ -61,6 +78,9 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Ruby
+  tag:
+    - Software_Basics
+    - Backend
   repository: https://github.com/hsf-training/hsf-training-docker
   status: stable
   videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
@@ -71,6 +91,9 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Golang
+  tag:
+    - Frontend
+    - Backend
   repository: https://github.com/hsf-training/hsf-training-docker
   status: stable
   videos: "https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"
@@ -81,6 +104,9 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: C/C++
+  tag:
+    - Frontend
+    - Software_Development
   repository: ""
   status: alpha
   videos: ""
@@ -91,9 +117,56 @@
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Java
+  tag:
+    - Frontend
+    - Software_Development
   repository: ""
   status: beta
   videos: ""
   webpage: https://hsf-training.github.io/hsf-training-docker/index.html
   id: docker10
+  heroImage: https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60
+- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+    image system.
+  name: UNIX Shell
+  tag:
+    - Software_Basics
+  repository: ""
+  status: beta
+  videos: ""
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker11
+  heroImage: https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60
+- description: Version controlling with git
+    image system.
+  name: Git
+  tag:
+    - Software_Basics
+  repository: ""
+  status: beta
+  videos: ""
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker12
+  heroImage: https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60
+- description: Basics of Machine Learning
+    image system.
+  name: Machine learning
+  tag:
+    - Software_Development
+  repository: ""
+  status: alpha
+  videos: ""
+  webpage: ""
+  id: docker13
+  heroImage: https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60
+- description: Advance Git
+    image system.
+  name: Git
+  tag:
+    - Software_Basics
+  repository: ""
+  status: stable
+  videos: ""
+  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker14
   heroImage: https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60

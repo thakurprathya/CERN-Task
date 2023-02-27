@@ -36,9 +36,6 @@ select::after {
         flex-direction: column;
         padding-left: 0;
     }
-    select{
-        margin-left: 0;
-    }
 }
 @media screen and (max-width: 568px) {
     .statusDiv{
