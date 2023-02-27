@@ -3,9 +3,11 @@ import {Link} from 'gatsby';
 import '../styles/global.css';
 import '../styles/index.css';
 
+// components
 import Navbar from '../components/Navbar';
 import Main from '../components/Main';
 
+// images
 import univLogo from '../images/univLogo.png';
 import facebookLogo from '../images/facebookLogo.png';
 

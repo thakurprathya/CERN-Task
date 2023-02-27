@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/Navbar.css";
 import { Link } from "gatsby";
 
+// images & icons
 import icon from '../images/icon.png';
 import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
 

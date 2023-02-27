@@ -3,9 +3,9 @@ import '../styles/card.css';
 import {Link} from 'gatsby';
 
 const Card = ({data}) => {
-    const {heroImage, name, description, id, videos, repository, webpage, status} = data.node;
+    const {heroImage, name, description, videos, repository, webpage, status} = data.node;
     return (
-        <div className={`card ${status}`} id={id}>
+        <div className={`card ${status}`}>
             <img src={heroImage} alt="HeroImg" />
             <div className="dataBox">
                 <h2 dangerouslySetInnerHTML={{ __html: description }} id="heading"/>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../styles/main.css';
 import { useStaticQuery, graphql } from 'gatsby';
 
+//components
 import Card from './Card';
 import Dropdown from './Dropdown';
 import CheckBox from './CheckBox';
@@ -50,12 +51,12 @@ const Main = () => {
                     <input type="text" placeholder="Search" value={searchTxt} onChange={(e)=>{setSearchTxt(e.target.value)}}/>
                 </div>
                 {courses.map((course)=>{
-                    if(searchTxt.toLowerCase === "" || course.node?.name?.toLowerCase().includes(searchTxt.toLowerCase()) || course.node?.description?.toLowerCase().includes(searchTxt.toLowerCase()) || course.node?.status?.toLowerCase().includes(searchTxt.toLowerCase())){
-                        if(status === "all" || course.node?.status === status){
-                            if((videos.checkbox1 === true && videos.checkbox2 === true) || (videos.checkbox1 === true ? course.node?.videos !== "" : course.node?.videos === "") &&
-                            (repo.checkbox11 === true && repo.checkbox2 === true) || (repo.checkbox1 === true ? course.node?.repository !== "" : course.node?.repository === "") &&
-                            (webpage.checkbox1 === true && webpage.checkbox2 === true) || (webpage.checkbox1 === true  ? course.node?.webpage !== "" : course.node?.webpage === ""))
-                                    return <Card data={course}/> 
+                    if((searchTxt.toLowerCase === "") || (course.node?.name?.toLowerCase().includes(searchTxt.toLowerCase())) || (course.node?.description?.toLowerCase().includes(searchTxt.toLowerCase())) || (course.node?.status?.toLowerCase().includes(searchTxt.toLowerCase()))){
+                        if((status === "all") || (course.node?.status === status)){
+                            if((videos.checkbox1 === true && videos.checkbox2 === true) || (videos.checkbox1 === true ? course.node?.videos !== "" : course.node?.videos === "") && (videos.checkbox2 === true ? course.node?.videos === "" : course.node?.videos !== "") ||
+                            (repo.checkbox11 === true && repo.checkbox2 === true) || (repo.checkbox1 === true ? course.node?.repository !== "" : course.node?.repository === "") && (repo.checkbox2 === true ? course.node?.repository === "" : course.node?.repository !== "") ||
+                            (webpage.checkbox1 === true && webpage.checkbox2 === true) || (webpage.checkbox1 === true  ? course.node?.webpage !== "" : course.node?.webpage === "") && (webpage.checkbox2 === true  ? course.node?.webpage === "" : course.node?.webpage !== ""))
+                                return <Card data={course} key={course.node?.id} /> 
                         }
                     }
                 })}
