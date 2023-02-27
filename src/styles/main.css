@@ -31,3 +31,30 @@
 .searchBox > input:focus{
     outline: none;
 }
+
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    .main{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .filters, .content{
+        width: 100vw;
+        padding: .5rem 2rem 1rem 2rem;
+    }
+    .allFilters{
+        display: flex;
+    }
+    .searchBox{
+        margin: 1vh 2vw 2vh 2vw;
+    }
+    .searchBox > input{
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 568px) {
+    .allFilters{
+        flex-direction: column;
+    }
+}

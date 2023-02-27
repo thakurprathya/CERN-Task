@@ -31,15 +31,18 @@ const Main = () => {
     const [videos, setVideos]= useState({checkbox1:true, checkbox2:true});
     const [repo, setRepo]= useState({checkbox1:true, checkbox2:true});
     const [webpage, setWebpage]= useState({checkbox1:true, checkbox2:true});
-
+    const [status, setStatus]= useState("stable");
+    
     return (
         <div className='main'>
             <div className="filters">
                 <h2>Filter Content</h2>
-                <div className="statusFilter"><Dropdown data="status" types={["stable", "beta", "alpha"]}/></div>
-                <div className="videoFilter"><CheckBox data="videos" state={videos} setState={setVideos}/></div>
-                <div className="repoFilter"><CheckBox data="repository" state={repo} setState={setRepo}/></div>
-                <div className="webpageFilter"><CheckBox data="webPage" state={webpage} setState={setWebpage}/></div>
+                <div className='allFilters'>
+                    <div className="statusFilter"><Dropdown data="status" types={["stable", "beta", "alpha"]} state={status} setState={setStatus}/></div>
+                    <div className="videoFilter"><CheckBox data="videos" state={videos} setState={setVideos}/></div>
+                    <div className="repoFilter"><CheckBox data="repository" state={repo} setState={setRepo}/></div>
+                    <div className="webpageFilter"><CheckBox data="webPage" state={webpage} setState={setWebpage}/></div>
+                </div>
             </div>
             <div className="content">
                 <div className="searchBox">
