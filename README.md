@@ -7,6 +7,9 @@
   Gatsby Minimal Starter
 </h1>
 
+## Live App link
+https://gsocqualificationtaskmain.gatsbyjs.io/
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
