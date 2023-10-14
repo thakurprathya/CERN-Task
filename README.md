@@ -5,7 +5,7 @@ ReactJs app created using GatsbyJS...
 https://hackmd.io/@S3oqmqkWRUKK-fisckqt4g/Sy7t3zERi
 
 ## Live App link
-https://gsocqualificationtaskmain.gatsbyjs.io/
+https://cern-task.netlify.app
 
 
 <h1 align="center">
